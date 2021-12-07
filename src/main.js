@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-
+import VueContextMenu from 'vue-contextmenu'
+Vue.use(VueContextMenu)
 Vue.config.productionTip = false
 
 new Vue({
